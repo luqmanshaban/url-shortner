@@ -1,0 +1,14 @@
+.CallToAction  {
+    background-image: url(../../assets/images/bg-shorten-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .CallToAction {
+        background-image: url(../../assets/images/bg-shorten-mobile.svg);
+        height: auto;
+    }
+}

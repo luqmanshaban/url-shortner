@@ -1,0 +1,15 @@
+
+.form {
+    background-image: url(../../assets/images/bg-boost-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130px;
+}
+
+@media screen and (max-width: 600px) {
+    .form {
+        background-image: url(../../assets/images/bg-boost-mobile.svg);
+        height: auto;
+    }
+}
